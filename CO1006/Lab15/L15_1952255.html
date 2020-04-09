@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+	<title>Nguyễn Hoàng</title>
+	<meta charset = "UTF-8">
+	<style>
+		#qframe{
+			max-width:400px;
+			border:1px solid black;
+			margin:5px;
+			padding:15px;
+			background-color:lavender;
+			margin:0 auto;
+		}
+		#qtitle{
+			background-color:blueviolet;
+			text-align:center;
+			border:1px solid black;
+			color:white;
+		}
+		#qform{
+			width:400px;
+		}
+		.fullinput{
+			width:100%;
+			margin-bottom:5px;
+			padding:3px;
+		}
+		.leftgroup{
+			float:left;
+			position:relative;
+			margin-right:16px;
+		}
+		.rightgroup{
+			position:right;
+		}
+		.halfinput{
+			width:181px;
+			margin-bottom:5px;
+			padding:3px;
+		}
+	</style>
+</head>
+<body>
+	<div id = "qpage">
+		<div id = "qframe">
+			<div id = "qtitle">
+				<h1>
+					LÝ LỊCH SINH VIÊN
+				</h1>
+			</div>
+			<div id = "qform">
+				<form>
+					<div class = "fullgroup">
+						Họ và tên sinh viên:
+						<input type = "text" class = "fullinput" name = "hoten">
+						<div class = "leftgroup">
+							Mã sinh viên:<br>
+							<input type = "text" class = "halfinput" name = "masv">
+						</div>
+						<div class = "rightgroup" style="height:50px">
+							<fieldset>
+								<legend>Giới tính</legend>
+								<input type = "radio" name = "gioitinh" value = "nam">Nam
+								<input type = "radio" name = "gioitinh" value = "nu">Nữ
+							</fieldset>
+						</div>
+						<div class = "fullgroup">
+							Chuyên ngành:
+							<select class = "fullinput" name = "nganh">
+								<option>(Hãy chọn chuyên ngành)</option>
+								<option value = "ktmt">Kỹ thuật máy tính</option>
+								<option value = "ktvl">Kỹ thuật vật liệu</option>
+								<option value = "kthh">Kỹ thuật hoá học</option>
+							</select>
+						</div>
+						<div class = "leftgroup">
+							Ngày sinh:<br>
+							<input type = "text" class = "halfinput" name = "ngaysinh">
+						</div>
+						<div class = "rightgroup">
+							Nơi sinh:<br>
+							<input type = "text" class = "halfinput" name = "noisinh">
+						</div>
+						<div class = "fullgroup" style="height:65px">
+							<fieldset>
+								<legend>Ngoại ngữ</legend>
+								<input type = "checkbox" name = "ngoaingu" value = "anh">Tiếng Anh
+								<input type = "checkbox" name = "ngoaingu" value = "phap">Tiếng Pháp
+								<input type = "checkbox" name = "ngoaingu" value = "trung">Tiếng Trung
+								<input type = "checkbox" name = "ngoaingu" value = "khac">Khác
+							</fieldset>
+						</div>
+						<div class = "leftgroup">
+							Điện thoại:<br>
+							<input type = "text" class = "halfinput" name = "dienthoai">
+						</div>
+						<div class = "rightgroup">
+							Email:
+							<input type = "text" class = "halfinput" name = "email">
+						</div>
+						Nơi ở hiện tại:
+						<input type = "text" class = "fullinput" name = "diachi">
+						Ưu và nhược điểm:
+						<div class = "fullgroup">
+							<textarea class = "fullinput" name = "uunhuocdiem">(Nhập ưu điểm và nhược điểm)</textarea>
+						</div>
+					</div>
+					<div class = "fullgroup" style="text-align:right;margin-top:10px;">
+						<input type = "submit" value = "Cập nhật" onClick = "alert('Cập nhật dữ liệu thành công')">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>

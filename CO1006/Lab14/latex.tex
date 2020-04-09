@@ -1,0 +1,50 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+
+\title{Student Information}
+\author{1952255 - Nguyễn Hoàng}
+
+\begin{document}
+	\maketitle
+	\section{Personal Information}
+	\begin{enumerate}
+		\item Name: \textbf{Nguyễn Hoàng}
+		\item Date of birth: \textit{12/10/2001}
+		\item Place of birth: Đồng Nai
+		\item Contact:
+		\begin{itemize}
+			\item Phone: \textbf{0846427715} \\
+			\item Email: \textbf{hoang.nguyen.bigunit@hcmut.edu.vn}
+		\end{itemize}
+	\end{enumerate}
+	\section{Learning process}
+	\begin{center}
+		\label{tab1}
+		\begin{tabular}{|c|l|}
+			\hline
+			From year to year  & Learning process \\
+			\hline
+			2008 - 2012 & Quảng Biên \\
+			\hline
+			2012 - 2016 & Lý Tự Trọng \\
+			\hline
+			2016 - 2019 & Thống Nhất A \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\newpage
+	\section{Favorite Scientist}
+	\subsection{Profile}
+	Einstein\cite{barnett2005universe} (1879 - 1955) is a genius physics scientist with the famous formula E = mc$^2$.\\
+	\subsection{Picture:}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{albert-einstein-2.jpg}
+		\caption{Modern Physic Scientist}
+	\end{figure}
+	\bibliography{scholar} 
+	\bibliographystyle{ieeetr}
+\end{document}

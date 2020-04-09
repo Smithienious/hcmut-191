@@ -1,0 +1,43 @@
+.textcenter{
+	text-align:center;
+}
+p{
+	text-align:justify;
+}
+.bigdiv{
+	max-width: 1002px;
+	border: 1px solid black;
+	margin: 5px;
+	padding: 15px;
+	background-color: bisque;
+}
+.smalldiv{
+	float: left;
+	margin: 5px;
+	padding: 15px;
+	max-width: 480px;
+	border: 1px solid black;
+	background-color: bisque;
+}
+img{
+	width: 100%;
+}
+#table01{
+	border-collapse: collapse;
+	width: 100%;
+	
+}
+td, th{
+	border: 1px solid black;
+	padding: 5px;
+}
+#table01 th{
+	color: white;
+	background-color: darkblue;
+}
+#table01 tr:nth-child(even){
+	background-color: aliceblue;
+}
+#table01 tr:nth-child(odd){
+	background-color: beige
+}
