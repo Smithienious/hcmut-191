@@ -1,0 +1,9 @@
+body{
+    background: rgb(204,204,204); 
+}
+img.centering{
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin: 4% auto 4%;
+}
